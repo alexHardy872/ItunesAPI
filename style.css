@@ -1,0 +1,125 @@
+
+html{
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: white;
+    background-image: linear-gradient(to bottom right, rgba(243, 108, 187, 0.61), rgba(183, 0, 255, 0.541), rgba(0, 132, 255, 0.534));
+    background-repeat: repeat-y;
+    background-size: fill;
+    
+}
+
+
+h1{
+    color: white;
+}
+
+.title{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+
+.player{
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 15x;
+    height: 30px;
+     width: 290px;
+     display: block;
+     clear: right;
+
+}
+
+.artist{
+    font-weight: bold;
+    padding-left: 3px;
+    
+}
+
+.song{
+    
+    max-width: 100px;
+    overflow: hidden;
+  
+}
+
+.box{
+    border: 1pt solid rgba(0, 0, 0, 0.164);
+    height: 66px;
+    width: 100%;
+    margin: 6px;
+    padding: 2px;
+    box-shadow: 2px 2px rgb(32, 128, 207);
+    background-color: rgba(255, 255, 255, 0.575);
+    
+    border-radius: 5px;
+}
+
+.box:hover{
+    background-color: rgba(79, 79, 143, 0.637);
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+.content{
+    
+    display: inline-block;
+    
+   
+   
+}
+img{
+    border-radius: 5px;
+}
+.buy{
+   
+    display: block;
+    height: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 10pt;
+    color: rgba(41, 34, 143, 0.842);
+    float: right;
+    border: 1pt solid black;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: rgba(255, 255, 255, 0.486);
+
+    
+}
+
+.buy:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+#container{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    
+    
+}
+
+#displayResults{
+    padding-top: 20px;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.genre{
+    font-style: italic;
+    color: gray;
+
+}
+
+.coverArt{
+ float:left;
+}
